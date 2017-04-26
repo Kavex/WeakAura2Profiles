@@ -86,7 +86,6 @@
             ["multi"] = {
             },
         },
-        ["use_class"] = "true",
         ["race"] = {
             ["multi"] = {
             },
@@ -104,7 +103,6 @@
             },
         },
         ["class"] = {
-            ["single"] = "MAGE",
         },
         ["role"] = {
             ["multi"] = {
