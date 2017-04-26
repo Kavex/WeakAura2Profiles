@@ -10,12 +10,13 @@
         [2] = "Cast",
         [3] = "Invisibility",
         [4] = "Ice Block",
-        [5] = "Counterspell",
-        [6] = "Blink",
-        [7] = "Blazing Barrier",
-        [8] = "Fire Blast",
-        [9] = "Dragon's Breath",
-        [10] = "Combustion",
+        [5] = "Frost Nova",
+        [6] = "Counterspell",
+        [7] = "Blink",
+        [8] = "Blazing Barrier",
+        [9] = "Fire Blast",
+        [10] = "Dragon's Breath",
+        [11] = "Combustion",
     },
     ["borderBackdrop"] = "Blizzard Tooltip",
     ["disjunctive"] = "all",
@@ -28,41 +29,33 @@
     ["actions"] = {
         ["start"] = {
         },
+        ["finish"] = {
+        },
         ["init"] = {
         },
-        ["finish"] = {
-        },
     },
-    ["xOffset"] = 29.999938964844,
+    ["expanded"] = true,
     ["borderOffset"] = 5,
-    ["selfPoint"] = "BOTTOMLEFT",
     ["animation"] = {
         ["start"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
         ["main"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
         ["finish"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
     },
+    ["selfPoint"] = "BOTTOMLEFT",
     ["id"] = "Fire Mage",
-    ["anchorPoint"] = "CENTER",
+    ["yOffset"] = 52.000122070313,
     ["frameStrata"] = 1,
     ["anchorFrameType"] = "SCREEN",
-    ["trigger"] = {
-        ["type"] = "aura",
-        ["spellIds"] = {
-        },
-        ["unit"] = "player",
-        ["debuffType"] = "HELPFUL",
-        ["names"] = {
-        },
-    },
+    ["borderEdge"] = "None",
     ["borderInset"] = 11,
     ["numTriggers"] = 1,
     ["borderColor"] = {
@@ -71,8 +64,16 @@
         [3] = 1,
         [4] = 0.5,
     },
-    ["borderEdge"] = "None",
-    ["yOffset"] = 52.000122070313,
+    ["trigger"] = {
+        ["type"] = "aura",
+        ["spellIds"] = {
+        },
+        ["names"] = {
+        },
+        ["debuffType"] = "HELPFUL",
+        ["unit"] = "player",
+    },
+    ["anchorPoint"] = "CENTER",
     ["load"] = {
         ["talent2"] = {
             ["multi"] = {
@@ -86,11 +87,11 @@
             ["multi"] = {
             },
         },
-        ["race"] = {
+        ["difficulty"] = {
             ["multi"] = {
             },
         },
-        ["difficulty"] = {
+        ["race"] = {
             ["multi"] = {
             },
         },
@@ -102,16 +103,16 @@
             ["multi"] = {
             },
         },
-        ["class"] = {
-        },
         ["role"] = {
             ["multi"] = {
             },
+        },
+        ["class"] = {
         },
         ["size"] = {
             ["multi"] = {
             },
         },
     },
-    ["expanded"] = true,
+    ["xOffset"] = 29.999938964844,
 }
